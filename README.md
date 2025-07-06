@@ -9,6 +9,11 @@ The goal of this repo is to centralize and version-control these files for easy 
 - Configuration files for various tools and environments
 - Utility scripts for setup and automation
 
+### Cofigurations
+
+* nvim
+* zsh
+
 ## Usage
 
 Feel free to explore or adapt anything that might be useful for your own setup. However, this repository is primarily intended for personal use.
