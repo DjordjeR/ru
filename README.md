@@ -9,10 +9,13 @@ The goal of this repo is to centralize and version-control these files for easy 
 - Configuration files for various tools and environments
 - Utility scripts for setup and automation
 
-### Cofigurations
+### Configurations
 
 * nvim
+    * `ln -sf /home/raja/Projects/raja-config/configs/nvim ~/.config/nvim`
 * zsh
+    * `ln -sf /home/raja/Projects/raja-config/configs/zshrc ~/.config/zsh/.zshrc`
+    * `ln -sf /home/raja/Projects/raja-config/configs/zshrc ~/.zshrc`
 
 ## Usage
 
