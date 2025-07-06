@@ -40,3 +40,7 @@ else
     echo ""
     echo "All scripts are installed and available in your shell."
 fi
+
+# Apply saved configurations
+ln -sf /home/raja/Projects/raja-config/configs/nvim ~/.config/nvimh
+ln -sf /home/raja/Projects/raja-config/configs/zshrc ~/.config/zsh/.zshrc
