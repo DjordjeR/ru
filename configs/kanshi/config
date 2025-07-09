@@ -1,0 +1,13 @@
+profile laptop_only {
+    output eDP-1 enable scale 1.5
+}
+
+profile docking_home {
+    output eDP-1 disable
+    output "Dell Inc. DELL U2414H 292K469N1CWL" {
+        position 1920,0
+    }
+    output "Dell Inc. DELL U2414H 9TG464BO15EL" {
+        position 0,0
+    }
+}
