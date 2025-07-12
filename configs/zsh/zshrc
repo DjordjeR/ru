@@ -1,0 +1,38 @@
+# Add custom scripts
+PATH="$HOME/.local/bin:$PATH"
+# Path to your Oh My Zsh installation
+ZSH="$ZDOTDIR/ohmyzsh"
+
+# Enable persistent history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt INC_APPEND_HISTORY SHARE_HISTORY
+
+export EDITOR=nvim
+export VISUAL=nvim
+
+# Set theme to Spaceship
+ZSH_THEME=""
+
+# Plugin setup (zsh-vi-mode first)
+plugins=(git zsh-autosuggestions)
+
+# Setup fzf keybindings and completion
+source <(fzf --zsh)
+
+# Aliases
+alias vim="nvim"
+alias gs="git status"
+alias gpl="git pull"
+alias gpu="git push"
+alias gpf="git push --force-with-lease"
+alias gaa="git add -A"
+alias gca="git commit -am"
+alias gc="git commit"
+
+#Star Ship
+eval "$(starship init zsh)"
+
+# Zoxide for smart directory jumping
+eval "$(zoxide init zsh)"

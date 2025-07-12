@@ -12,4 +12,4 @@ rofi       = { source = "configs/rofi",    target = ".config/rofi" }
 sway       = { source = "configs/sway",    target = ".config/sway" }
 swaylock   = { source = "configs/swaylock",target = ".config/swaylock" }
 waybar     = { source = "configs/waybar",  target = ".config/waybar", direct=true }
-# zshrc      = { source = "configs/zshrc",   target = ".config/zsh" }
+zsh        = { source = "configs/zsh/zshrc", target = ".config/zsh/.zshrc" }
