@@ -106,7 +106,7 @@
     },
     "network": {
         "interval": 5,
-        "format-wifi": "{icon}",
+        "format-wifi": "{icon} [{essid}]",
         "format-ethernet": "󰈀",
         "format-disconnected": "󰖪",
         "format-disabled": "󰀝",
